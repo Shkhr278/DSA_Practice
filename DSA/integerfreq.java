@@ -10,7 +10,7 @@ public class integerfreq {
     public static void main(String[] args) {
 
         //Taking number as a string input
-        String n = "abdueavfdbuyegvduya";
+        String n = "122211556486487";
 
     //Calling find function
      find(n);
