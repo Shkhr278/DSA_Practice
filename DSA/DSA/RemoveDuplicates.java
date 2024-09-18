@@ -46,4 +46,9 @@ class Solution {
         // The number of unique elements is uniqueIndex + 1
         return uniqueIndex + 1;
     }
+
+    public int[] twoSum(int[] nums1, int target1) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'twoSum'");
+    }
 }
