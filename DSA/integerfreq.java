@@ -1,7 +1,3 @@
-/*
- Question: 
- */
-
 package DSA;
 
 public class integerfreq {
@@ -44,7 +40,7 @@ public class integerfreq {
             l+=1;           
         }
 
-        //
+        //iterating over the indexes and printing the frequency of the nunmbers on that index and moving on the next index 
         for(int i=0; i<10; i+=1)
             if(freq[i]>0) System.out.println("Frequency of "+ i + " is:"+freq[i]);
 
