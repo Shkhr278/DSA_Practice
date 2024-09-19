@@ -1,6 +1,6 @@
 package DSA;
 
-public class integerfreq {
+public class IntegerFrequency {
 
     //Main Function
     public static void main(String[] args) {
