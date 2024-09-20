@@ -1,6 +1,3 @@
-package Java;
-
-
 public class RemoveDuplicates {
     public static void main(String[] args) {
         // Example input array (sorted in non-decreasing order)

@@ -1,5 +1,3 @@
-package Java;
-
 public class RemoveElement {
     public int removeElement(int[] nums, int val) {
         int k = 0; // Keeps track of the count of non-val elements

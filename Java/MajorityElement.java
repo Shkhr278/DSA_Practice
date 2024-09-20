@@ -1,4 +1,3 @@
-package Java;
 public class MajorityElement {
     public int majorityElement(int[] nums) {
         // Initialize variables to store the number and the count

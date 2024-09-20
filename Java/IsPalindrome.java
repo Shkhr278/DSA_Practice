@@ -1,5 +1,3 @@
-package Java;
-
 public class IsPalindrome {
     public boolean isPalindrome(int x) {
         // Negative numbers are not palindromes
