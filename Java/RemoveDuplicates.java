@@ -1,4 +1,4 @@
-package DSA;
+package Java;
 
 
 public class RemoveDuplicates {
