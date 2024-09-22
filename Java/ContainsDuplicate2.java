@@ -2,7 +2,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class ContainsDuplicate2 {
-    public boolean containsNearbyDuplicate(int[] nums, int k) {
+    public boolean containsDuplicate(int[] nums, int k) {
         // Create a HashMap to store the last seen index of each element
         Map<Integer, Integer> lastSeenIndex = new HashMap<>();
         
@@ -33,16 +33,16 @@ public class ContainsDuplicate2 {
         // Test case 1
         int[] nums1 = {1, 2, 3, 1};
         int k1 = 3;
-        System.out.println("Test case 1: " + solution.containsNearbyDuplicate(nums1, k1)); // true
+        System.out.println("Test case 1: " + solution.containsDuplicate(nums1, k1)); // true
         
         // Test case 2
         int[] nums2 = {1, 0, 1, 1};
         int k2 = 1;
-        System.out.println("Test case 2: " + solution.containsNearbyDuplicate(nums2, k2)); // true
+        System.out.println("Test case 2: " + solution.containsDuplicate(nums2, k2)); // true
         
         // Test case 3
         int[] nums3 = {1, 2, 3, 1, 2, 3};
         int k3 = 2;
-        System.out.println("Test case 3: " + solution.containsNearbyDuplicate(nums3, k3)); // false
+        System.out.println("Test case 3: " + solution.containsDuplicate(nums3, k3)); // false
     }
 }
