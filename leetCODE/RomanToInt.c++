@@ -2,7 +2,7 @@
 #include <unordered_map>
 #include <string>
 
-class Solution {
+class RomanToInt {
 public:
     int romanToInt(std::string s) {
         std::unordered_map<char, int> roman = {
@@ -26,7 +26,7 @@ public:
 };
 
 int main() {
-    Solution sol;
+    RomanToInt sol;
 
     // Example 1
     std::string s1 = "III";
